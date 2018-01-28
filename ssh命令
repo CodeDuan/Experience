@@ -1,0 +1,7 @@
+一台电脑管理多个ssh
+
+ssh-keygen -t rsa -C "xxxx@xx.com" //创建sshkey
+ssh-add ~/.ssh/github_rsa  可能会提示could not open a connection to your authentication agent.
+  ssh-agent bash
+
+ssh -t git@github.com//测试是否联通
